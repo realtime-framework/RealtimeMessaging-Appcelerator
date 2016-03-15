@@ -1,0 +1,27 @@
+<android xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest>
+        <permission
+            android:name=".permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+        <uses-permission android:name=".permission.C2D_MESSAGE"/>
+        <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <uses-permission
+            android:name="android.permission.GET_TASKS"/> //detect if app is running from service
+        <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+        <uses-permission android:name="android.permission.WAKE_LOCK"/>
+        <application android:debuggable="true">
+            <service android:name="co.realtime.ortc.BackgroundService"/>
+            <service android:name="ibt.ortc.extensibility.GcmOrtcIntentService"/>
+            <receiver
+                android:name="ibt.ortc.extensibility.GcmOrtcBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                    <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                    <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                </intent-filter>
+            </receiver>
+        </application>
+    </manifest>
+</android>

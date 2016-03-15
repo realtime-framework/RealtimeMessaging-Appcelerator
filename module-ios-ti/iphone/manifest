@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.8
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: module-ios-ti
+author: Realtime.co
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: module-ios-ti
+moduleid: co.realtime.ortc
+guid: 88a14241-1de3-45ec-9cba-899d3cd4642d
+platform: iphone
+minsdk: 5.2.0.GA

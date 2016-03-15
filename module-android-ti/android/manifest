@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.12
+apiversion: 2
+architectures: armeabi armeabi-v7a x86
+description: module-android-ti
+author: Realtime.co
+license: Specify your license
+copyright: Copyright (c) 2016 by Your Company
+
+# these should not be edited
+name: module-android-ti
+moduleid: co.realtime.ortc
+guid: 4460d963-9dc2-4e59-b258-3c01caee5108
+platform: android
+minsdk: 5.2.0.GA

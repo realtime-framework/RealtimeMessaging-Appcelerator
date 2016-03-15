@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="android/src"/>
+	<classpathentry kind="src" path="android/build/.apt_generated"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Library/android-sdk-macosx/platforms/android-23/android.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/titanium.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-common.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Library/Application Support/Titanium/mobilesdk/osx/5.2.0.GA/android/kroll-apt.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Documents/Appcelerator_Studio_Workspace/module-android-ti/android/lib/google-play-services.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Documents/Appcelerator_Studio_Workspace/module-android-ti/android/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Documents/Appcelerator_Studio_Workspace/module-android-ti/android/lib/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Documents/Appcelerator_Studio_Workspace/module-android-ti/android/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/joaocaixinha/Library/Android/sdk/extras/android/support/v4/android-support-v4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
