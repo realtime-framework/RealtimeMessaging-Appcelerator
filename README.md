@@ -1,4 +1,4 @@
-## Realtime Messaging modules for Appcelarator
+## Realtime Messaging modules for Appcelerator
 
 These modules allows the integration of Realtime Messaging services (aka ORTC) in Appcelerator applications.
 
